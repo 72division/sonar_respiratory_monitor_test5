@@ -1,0 +1,625 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D7012EBD228B0E5A00C36484 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7012EBC228B0E5A00C36484 /* AppDelegate.swift */; };
+		D7012EBF228B0E5A00C36484 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7012EBE228B0E5A00C36484 /* ViewController.swift */; };
+		D7012EC2228B0E5A00C36484 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7012EC0228B0E5A00C36484 /* Main.storyboard */; };
+		D7012EC4228B0E5C00C36484 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7012EC3228B0E5C00C36484 /* Assets.xcassets */; };
+		D7012EC7228B0E5C00C36484 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7012EC5228B0E5C00C36484 /* LaunchScreen.storyboard */; };
+		D7012ED2228B0E5C00C36484 /* sonar_respiratory_monitor_test1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7012ED1228B0E5C00C36484 /* sonar_respiratory_monitor_test1Tests.swift */; };
+		D7012EDD228B0E5C00C36484 /* sonar_respiratory_monitor_test1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7012EDC228B0E5C00C36484 /* sonar_respiratory_monitor_test1UITests.swift */; };
+		D74FB1D7228B116B00C5BDC5 /* Oscillator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74FB1D6228B116B00C5BDC5 /* Oscillator.swift */; };
+		D74FB1DD228B13B800C5BDC5 /* AudioKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D74FB1D9228B11CF00C5BDC5 /* AudioKit.framework */; };
+		D74FB1DE228B13B800C5BDC5 /* AudioKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D74FB1DA228B11CF00C5BDC5 /* AudioKitUI.framework */; };
+		D74FB1E0228B15DE00C5BDC5 /* Signal_Input.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74FB1DF228B15DE00C5BDC5 /* Signal_Input.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D7012ECE228B0E5C00C36484 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D7012EB1228B0E5A00C36484 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7012EB8228B0E5A00C36484;
+			remoteInfo = sonar_respiratory_monitor_test1;
+		};
+		D7012ED9228B0E5C00C36484 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D7012EB1228B0E5A00C36484 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7012EB8228B0E5A00C36484;
+			remoteInfo = sonar_respiratory_monitor_test1;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D7012EB9228B0E5A00C36484 /* sonar_respiratory_monitor_test1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sonar_respiratory_monitor_test1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7012EBC228B0E5A00C36484 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D7012EBE228B0E5A00C36484 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D7012EC1228B0E5A00C36484 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D7012EC3228B0E5C00C36484 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D7012EC6228B0E5C00C36484 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D7012EC8228B0E5C00C36484 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7012ECD228B0E5C00C36484 /* sonar_respiratory_monitor_test1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sonar_respiratory_monitor_test1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7012ED1228B0E5C00C36484 /* sonar_respiratory_monitor_test1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sonar_respiratory_monitor_test1Tests.swift; sourceTree = "<group>"; };
+		D7012ED3228B0E5C00C36484 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7012ED8228B0E5C00C36484 /* sonar_respiratory_monitor_test1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sonar_respiratory_monitor_test1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7012EDC228B0E5C00C36484 /* sonar_respiratory_monitor_test1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sonar_respiratory_monitor_test1UITests.swift; sourceTree = "<group>"; };
+		D7012EDE228B0E5C00C36484 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D74FB1D6228B116B00C5BDC5 /* Oscillator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Oscillator.swift; sourceTree = "<group>"; };
+		D74FB1D9228B11CF00C5BDC5 /* AudioKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioKit.framework; path = "sonar_respiratory_monitor_test1/AudioKit-iOS/AudioKit.framework"; sourceTree = "<group>"; };
+		D74FB1DA228B11CF00C5BDC5 /* AudioKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioKitUI.framework; path = "sonar_respiratory_monitor_test1/AudioKit-iOS/AudioKitUI.framework"; sourceTree = "<group>"; };
+		D74FB1DF228B15DE00C5BDC5 /* Signal_Input.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Signal_Input.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D7012EB6228B0E5A00C36484 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D74FB1DD228B13B800C5BDC5 /* AudioKit.framework in Frameworks */,
+				D74FB1DE228B13B800C5BDC5 /* AudioKitUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7012ECA228B0E5C00C36484 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7012ED5228B0E5C00C36484 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D7012EB0228B0E5A00C36484 = {
+			isa = PBXGroup;
+			children = (
+				D7012EBB228B0E5A00C36484 /* sonar_respiratory_monitor_test1 */,
+				D7012ED0228B0E5C00C36484 /* sonar_respiratory_monitor_test1Tests */,
+				D7012EDB228B0E5C00C36484 /* sonar_respiratory_monitor_test1UITests */,
+				D7012EBA228B0E5A00C36484 /* Products */,
+				D74FB1D8228B11CF00C5BDC5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D7012EBA228B0E5A00C36484 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D7012EB9228B0E5A00C36484 /* sonar_respiratory_monitor_test1.app */,
+				D7012ECD228B0E5C00C36484 /* sonar_respiratory_monitor_test1Tests.xctest */,
+				D7012ED8228B0E5C00C36484 /* sonar_respiratory_monitor_test1UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D7012EBB228B0E5A00C36484 /* sonar_respiratory_monitor_test1 */ = {
+			isa = PBXGroup;
+			children = (
+				D7012EBC228B0E5A00C36484 /* AppDelegate.swift */,
+				D7012EBE228B0E5A00C36484 /* ViewController.swift */,
+				D7012EC0228B0E5A00C36484 /* Main.storyboard */,
+				D74FB1DF228B15DE00C5BDC5 /* Signal_Input.swift */,
+				D74FB1D6228B116B00C5BDC5 /* Oscillator.swift */,
+				D7012EC3228B0E5C00C36484 /* Assets.xcassets */,
+				D7012EC5228B0E5C00C36484 /* LaunchScreen.storyboard */,
+				D7012EC8228B0E5C00C36484 /* Info.plist */,
+			);
+			path = sonar_respiratory_monitor_test1;
+			sourceTree = "<group>";
+		};
+		D7012ED0228B0E5C00C36484 /* sonar_respiratory_monitor_test1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D7012ED1228B0E5C00C36484 /* sonar_respiratory_monitor_test1Tests.swift */,
+				D7012ED3228B0E5C00C36484 /* Info.plist */,
+			);
+			path = sonar_respiratory_monitor_test1Tests;
+			sourceTree = "<group>";
+		};
+		D7012EDB228B0E5C00C36484 /* sonar_respiratory_monitor_test1UITests */ = {
+			isa = PBXGroup;
+			children = (
+				D7012EDC228B0E5C00C36484 /* sonar_respiratory_monitor_test1UITests.swift */,
+				D7012EDE228B0E5C00C36484 /* Info.plist */,
+			);
+			path = sonar_respiratory_monitor_test1UITests;
+			sourceTree = "<group>";
+		};
+		D74FB1D8228B11CF00C5BDC5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D74FB1D9228B11CF00C5BDC5 /* AudioKit.framework */,
+				D74FB1DA228B11CF00C5BDC5 /* AudioKitUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D7012EB8228B0E5A00C36484 /* sonar_respiratory_monitor_test1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7012EE1228B0E5C00C36484 /* Build configuration list for PBXNativeTarget "sonar_respiratory_monitor_test1" */;
+			buildPhases = (
+				D7012EB5228B0E5A00C36484 /* Sources */,
+				D7012EB6228B0E5A00C36484 /* Frameworks */,
+				D7012EB7228B0E5A00C36484 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = sonar_respiratory_monitor_test1;
+			productName = sonar_respiratory_monitor_test1;
+			productReference = D7012EB9228B0E5A00C36484 /* sonar_respiratory_monitor_test1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D7012ECC228B0E5C00C36484 /* sonar_respiratory_monitor_test1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7012EE4228B0E5C00C36484 /* Build configuration list for PBXNativeTarget "sonar_respiratory_monitor_test1Tests" */;
+			buildPhases = (
+				D7012EC9228B0E5C00C36484 /* Sources */,
+				D7012ECA228B0E5C00C36484 /* Frameworks */,
+				D7012ECB228B0E5C00C36484 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D7012ECF228B0E5C00C36484 /* PBXTargetDependency */,
+			);
+			name = sonar_respiratory_monitor_test1Tests;
+			productName = sonar_respiratory_monitor_test1Tests;
+			productReference = D7012ECD228B0E5C00C36484 /* sonar_respiratory_monitor_test1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D7012ED7228B0E5C00C36484 /* sonar_respiratory_monitor_test1UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7012EE7228B0E5C00C36484 /* Build configuration list for PBXNativeTarget "sonar_respiratory_monitor_test1UITests" */;
+			buildPhases = (
+				D7012ED4228B0E5C00C36484 /* Sources */,
+				D7012ED5228B0E5C00C36484 /* Frameworks */,
+				D7012ED6228B0E5C00C36484 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D7012EDA228B0E5C00C36484 /* PBXTargetDependency */,
+			);
+			name = sonar_respiratory_monitor_test1UITests;
+			productName = sonar_respiratory_monitor_test1UITests;
+			productReference = D7012ED8228B0E5C00C36484 /* sonar_respiratory_monitor_test1UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D7012EB1228B0E5A00C36484 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Sunggone Kim";
+				TargetAttributes = {
+					D7012EB8228B0E5A00C36484 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					D7012ECC228B0E5C00C36484 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = D7012EB8228B0E5A00C36484;
+					};
+					D7012ED7228B0E5C00C36484 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = D7012EB8228B0E5A00C36484;
+					};
+				};
+			};
+			buildConfigurationList = D7012EB4228B0E5A00C36484 /* Build configuration list for PBXProject "sonar_respiratory_monitor_test1" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D7012EB0228B0E5A00C36484;
+			productRefGroup = D7012EBA228B0E5A00C36484 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D7012EB8228B0E5A00C36484 /* sonar_respiratory_monitor_test1 */,
+				D7012ECC228B0E5C00C36484 /* sonar_respiratory_monitor_test1Tests */,
+				D7012ED7228B0E5C00C36484 /* sonar_respiratory_monitor_test1UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D7012EB7228B0E5A00C36484 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7012EC7228B0E5C00C36484 /* LaunchScreen.storyboard in Resources */,
+				D7012EC4228B0E5C00C36484 /* Assets.xcassets in Resources */,
+				D7012EC2228B0E5A00C36484 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7012ECB228B0E5C00C36484 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7012ED6228B0E5C00C36484 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D7012EB5228B0E5A00C36484 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D74FB1D7228B116B00C5BDC5 /* Oscillator.swift in Sources */,
+				D7012EBF228B0E5A00C36484 /* ViewController.swift in Sources */,
+				D74FB1E0228B15DE00C5BDC5 /* Signal_Input.swift in Sources */,
+				D7012EBD228B0E5A00C36484 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7012EC9228B0E5C00C36484 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7012ED2228B0E5C00C36484 /* sonar_respiratory_monitor_test1Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7012ED4228B0E5C00C36484 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7012EDD228B0E5C00C36484 /* sonar_respiratory_monitor_test1UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D7012ECF228B0E5C00C36484 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D7012EB8228B0E5A00C36484 /* sonar_respiratory_monitor_test1 */;
+			targetProxy = D7012ECE228B0E5C00C36484 /* PBXContainerItemProxy */;
+		};
+		D7012EDA228B0E5C00C36484 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D7012EB8228B0E5A00C36484 /* sonar_respiratory_monitor_test1 */;
+			targetProxy = D7012ED9228B0E5C00C36484 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D7012EC0228B0E5A00C36484 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7012EC1228B0E5A00C36484 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D7012EC5228B0E5C00C36484 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7012EC6228B0E5C00C36484 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D7012EDF228B0E5C00C36484 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D7012EE0228B0E5C00C36484 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D7012EE2228B0E5C00C36484 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GSTX4Y4K3Z;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/sonar_respiratory_monitor_test1/AudioKit-iOS",
+				);
+				INFOPLIST_FILE = sonar_respiratory_monitor_test1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = "-lc++";
+				PRODUCT_BUNDLE_IDENTIFIER = "UoY.sonar-respiratory-monitor-test1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D7012EE3228B0E5C00C36484 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GSTX4Y4K3Z;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/sonar_respiratory_monitor_test1/AudioKit-iOS",
+				);
+				INFOPLIST_FILE = sonar_respiratory_monitor_test1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = "-lc++";
+				PRODUCT_BUNDLE_IDENTIFIER = "UoY.sonar-respiratory-monitor-test1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D7012EE5228B0E5C00C36484 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GSTX4Y4K3Z;
+				INFOPLIST_FILE = sonar_respiratory_monitor_test1Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "UoY.sonar-respiratory-monitor-test1Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sonar_respiratory_monitor_test1.app/sonar_respiratory_monitor_test1";
+			};
+			name = Debug;
+		};
+		D7012EE6228B0E5C00C36484 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GSTX4Y4K3Z;
+				INFOPLIST_FILE = sonar_respiratory_monitor_test1Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "UoY.sonar-respiratory-monitor-test1Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sonar_respiratory_monitor_test1.app/sonar_respiratory_monitor_test1";
+			};
+			name = Release;
+		};
+		D7012EE8228B0E5C00C36484 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GSTX4Y4K3Z;
+				INFOPLIST_FILE = sonar_respiratory_monitor_test1UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "UoY.sonar-respiratory-monitor-test1UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = sonar_respiratory_monitor_test1;
+			};
+			name = Debug;
+		};
+		D7012EE9228B0E5C00C36484 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GSTX4Y4K3Z;
+				INFOPLIST_FILE = sonar_respiratory_monitor_test1UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "UoY.sonar-respiratory-monitor-test1UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = sonar_respiratory_monitor_test1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D7012EB4228B0E5A00C36484 /* Build configuration list for PBXProject "sonar_respiratory_monitor_test1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7012EDF228B0E5C00C36484 /* Debug */,
+				D7012EE0228B0E5C00C36484 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7012EE1228B0E5C00C36484 /* Build configuration list for PBXNativeTarget "sonar_respiratory_monitor_test1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7012EE2228B0E5C00C36484 /* Debug */,
+				D7012EE3228B0E5C00C36484 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7012EE4228B0E5C00C36484 /* Build configuration list for PBXNativeTarget "sonar_respiratory_monitor_test1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7012EE5228B0E5C00C36484 /* Debug */,
+				D7012EE6228B0E5C00C36484 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7012EE7228B0E5C00C36484 /* Build configuration list for PBXNativeTarget "sonar_respiratory_monitor_test1UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7012EE8228B0E5C00C36484 /* Debug */,
+				D7012EE9228B0E5C00C36484 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D7012EB1228B0E5A00C36484 /* Project object */;
+}
